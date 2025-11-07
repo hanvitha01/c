@@ -14,10 +14,11 @@ int fact_iter(int n) {
     return result;
 }
 
+
 int main() {
     int n;
 
-    printf("enter the number: ");
+    printf("enter the numberrrrrr: ");
     scanf("%d",&n);
 
     printf("\nusing reccursion: %d = %d ",n, fact_rec(n));
