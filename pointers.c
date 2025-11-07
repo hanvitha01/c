@@ -27,7 +27,7 @@ int main(){
 
     char c = 'c',*p_c = &c;
     float f = 7.89,*p_f = &f;
-    unsigned long u = 10000000000,*p_u = & u;
+    unsigned long u = 1000000000,*p_u = &u;
 
 
     printf("value of i: %d\n",i);

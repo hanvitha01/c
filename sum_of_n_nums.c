@@ -21,7 +21,6 @@ int main(){
     printf("\n using rec  sum = %d",sum_rec(n));
     printf("\n using iter  sum = %d",sum_iter(n));
 
-
     return 0;
 
 }
