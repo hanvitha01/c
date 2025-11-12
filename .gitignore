@@ -11,3 +11,7 @@ release/
 
 # Ignore VS Code 
 .vscode/
+
+# Ignore text files
+*.docx
+*.txt
