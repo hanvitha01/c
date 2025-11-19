@@ -38,13 +38,19 @@ int main() {
 
     int *ptr1 = arr[0];
     int *ptr2 = &arr[0][0];
+    int *ptr3 = arr[1];
+    // int *ptr4 = &arr[1];
 
     printf("ptr1 = %p, value = %d\n", ptr1, *ptr1);
-    printf("ptr2 = %p, value = %d\n\n", ptr2, *ptr2);
+    printf("ptr2 = %p, value = %d\n", ptr2, *ptr2);
+    printf("ptr3 = %p, value = %d\n", ptr3, *ptr3);
+    // printf("ptr4 = %p, value = %d\n\n", ptr4, *ptr4);
+    
+
 
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 2; j++) {
-            printf("arr[%d][%d] = %d\t Address = %p\n",i, j, arr[i][j], &arr[i][j]);
+            printf("arr[%d][%d] = %d\n Address = %p\n",i, j, arr[i][j], &arr[i][j]);
         }
     }
 
