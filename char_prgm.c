@@ -9,7 +9,7 @@ void func2(char *names[]){
     printf("f2: names[0] address : %p\n", names[0]);
     printf("f2: string at names[0]: %s\n", names[0]);
 
-    printf("%s\n", names[0]); 
+    printf("%s\n\n", names[0]); 
 }
 
 void func_1(){
