@@ -37,5 +37,6 @@ int main()
 
     ptr = &j;
     printf("%d",*ptr);
+    // *ptr = 15;
 }
 
