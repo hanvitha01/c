@@ -2,16 +2,16 @@
 #include <string.h>
 
 int main() {
-    char original[10] = "Hello";      
-    int len = strlen(original);
-    char reversed[50];             
+    char og[10] = "Hello";      
+    int len = strlen(og);
+    char rev[50];             
     for (int i = 0; i < len; i++) {
-        reversed[i] = original[len - 1 - i];
+        rev[i] = og[len - 1 - i];
     }
-    reversed[len] = '\0'; 
+    rev[len] = '\0'; 
 
-    printf("Original: %s\n", original);
-    printf("Reversed: %s\n", reversed);
+    printf("Original: %s\n", og);
+    printf("Reversed: %s\n", rev);
 
     return 0;
 }
